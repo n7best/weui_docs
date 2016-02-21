@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>weui-docs</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://res.wx.qq.com/open/libs/weui/0.3.0/weui.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body class="site">
+  <nav class="site-nav wechat__navbg">
+    <div class="nav__logo">
+      <img src="https://avatars3.githubusercontent.com/u/10220215?v=3&s=460"/>
+    </div>
+    <ul class="wechat__menus">
+      <li id="btnStart">
+        <i class="fa fa-2x fa-play-circle"></i>
+        <p>Start</p>
+      </li>
+      <li class="active" id="btnComponent">
+        <i class="fa fa-2x fa-code"></i>
+        <p>Components</p>
+      </li>
+      <li id="btnDemo">
+        <i class="fa fa-2x fa-wechat"></i>
+        <p>Demo</p>
+      </li>
+      <li>
+        <a href="https://github.com/weui/weui/" target="_blank">
+          <i class="fa fa-2x fa-github"></i>
+          <p>Github</p>
+        </a>
+      </li>
+    </ul>
+    <div class="pull-bottom">
+      <a href="javascript:;" id="btnSettings">
+          <i class="fa fa-2x fa-cog"></i>
+          <p>Settings</p>
+      </a>
+    </div>
+  </nav>
+  <main class="site-content">
+    <section class="content-topic">
+      <div id="secStarts" style="display:none;">
+        <div class="weui_cells_title">Starts</div>
+        <div class="weui_cells weui_cells_access" id="weuiStart"></div>
+      </div>
+      <div id="secComponents">
+        <div class="weui_cells_title">Components</div>
+        <div class="weui_cells weui_cells_access" id="weuiComponents"></div>
+      </div>
+    </section>
+    <section class="area-preview">
+      <div class="components__details">
+        <article class="wechat__article" id="componentDocs">
+        </article>
+      </div>
+      <div class="components__canvas flex-center">
+        <div class="section-default" id="noPreview">
+          <i class="fa fa-4x fa-weixin"></i>
+          No component selected
+        </div>
+        <iframe src="" width="375" height="627"  style="display:none;" id="previewIFrame">
+           <p>Your browser does not support iframes.</p>
+        </iframe>
+      </div>
+    </section>
+  </main>
+  <div class="weui_dialog_alert" id="demoSection" style="display:none;">
+      <div class="weui_mask"></div>
+      <div class="weui_dialog">
+          <div class="weui_dialog_hd">
+            <strong class="weui_dialog_title">Mobile Demo</strong>
+        </div>
+          <div class="weui_dialog_bd">
+            <img src="https://github.com/weui/weui/raw/master/dist/example/snapshot/qrcode.png"/>
+          </div>
+          <div class="weui_dialog_ft">
+              <a href="javascript:;" class="weui_btn_dialog primary" id="btnHideDemo">OK</a>
+          </div>
+      </div>
+  </div>
+  <div class="weui_dialog_alert" id="settingsSection" style="display:none;">
+      <div class="weui_mask"></div>
+      <div class="weui_dialog">
+          <div class="weui_dialog_hd">
+            <strong class="weui_dialog_title">Settings</strong>
+        </div>
+          <div class="weui_dialog_bd" style="padding: 0;">
+             <div class="weui_cells_title">WeUI verision: 0.3.0</div>
+             <div class="weui_cells">
+               <div class="weui_cell weui_cell_select weui_select_after">
+                    <div class="weui_cell_hd">
+                        Preview Size
+                    </div>
+                    <div class="weui_cell_bd weui_cell_primary">
+                        <select class="weui_select" name="previewSize" id="previewSize">
+                            <option value="iphone6">iPhone 6S</option>
+                            <option value="iphone6p">iPhone 6S+</option>
+                            <option value="nexus6">Nexus 6</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="weui_cells_tips">Made with <i class="fa fa-heart"></i> By n7best</div>
+          </div>
+          <div class="weui_dialog_ft">
+              <a href="javascript:;" class="weui_btn_dialog primary" id="btnHideSettings">OK</a>
+          </div>
+      </div>
+  </div>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js'></script>
+<script src='http://cdn.jsdelivr.net/remarkable/1.6.2/remarkable.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
