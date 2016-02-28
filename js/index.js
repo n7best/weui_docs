@@ -41,7 +41,7 @@ var components = [{
   docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Dialog.md'
 }, {
   name: 'Progress',
-  icon: 'http://weui.github.io/weui/images/icon_nav_button.png',
+  icon: 'http://weui.github.io/weui/images/icon_nav_progress.png',
   preview: 'http://weui.github.io/weui/#progress',
   docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Progress.md'
 }, {
@@ -74,6 +74,24 @@ var components = [{
   icon: 'http://weui.github.io/weui/images/icon_nav_article.png',
   images: true,
   docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Form.md'
+}, {
+  name: 'Panel',
+  icon: 'http://weui.github.io/weui/images/icon_nav_panel.png',
+  images: true,
+  docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Panel.md',
+  preview: 'http://weui.github.io/weui/#panel',
+}, {
+  name: 'Navbar',
+  icon: 'http://weui.github.io/weui/images/icon_nav_tab.png',
+  images: true,
+  docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Navbar.md',
+  preview: 'http://weui.github.io/weui/#navbar',
+}, {
+  name: 'Tabbar',
+  icon: 'http://weui.github.io/weui/images/icon_nav_tab.png',
+  images: true,
+  docs: 'https://raw.githubusercontent.com/wiki/weui/weui/Tabbar.md',
+  preview: 'http://weui.github.io/weui/#tabbar',
 }];
 
 //menus functions
